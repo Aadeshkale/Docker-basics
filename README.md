@@ -76,24 +76,30 @@ CMD :- It is used to start the appliction specific entry point this command is n
 
 Building Docker image :-
     •  sudo docker build -t your_image_name .
+      
 **note :- here “.” represents the current location for Dockerfile
 List All Docker imades :-
     • sudo docker images
+      
 Run this to launch your container :-
     • sudo docker run -p 80:80 -i -t your_image_name
+
 List All Docker Containers :-
     • sudo docker ps --all
 Going into Docker Container shell :-
     • sudo docker exec -i -t <ID_OF_DOCKER_CONTAINER> /bin/bash 	
 
+
 Removing Docker image :-
 
     • sudo docker image rm  <ID_OF_DOCKER_Image>
+
 
 Removing Docker cointainer :-
 
     • sudo docker container rm  <ID_OF_DOCKER_Image>
 
+
 **note tere are many other important commands you can found on official Docker site
 
-------------------------------------------------------------------------------------------------------------------
+
