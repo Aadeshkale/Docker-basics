@@ -10,7 +10,7 @@ Introduction to Docker :-
 
 Docker is a technology that makes it easier to create, deploy, and run applications by using containers. Containers allow developers to package applications with all the components required by the applications and later ship them out as packages. It also makes it possible to get more apps running on the same server.
 
-Inatallation of Docker on ubuntu follow the following commands:-
+Installation of Docker on ubuntu follow the following commands:-
 
 https://linuxize.com/post/how-to-install-and-use-docker-on-ubuntu-18-04/
 
