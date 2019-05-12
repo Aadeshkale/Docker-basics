@@ -75,12 +75,19 @@ CMD exec gunicorn your_site_name.wsgi:application --bind 0.0.0.0:80 --workers 3
 Description :-
 
 FROM :- It is uesd to describe the base image for our container
+
 MAINTAINER :- It is uesd to describe the maintainer of the Docker image
+
 ADD :- It is used to copy/download the source project files into docker container specified loccation
+
 WORKDIR :- It is used to select to working directory
+
 COPY :- It is simillar to ADD command but it is not able to dowmload file from remote location	   
+
 RUN :- It is used to run linux commands
+
 EXPOSE :- It is used to expose the port for communiation
+
 CMD :- It is used to start the appliction specific entry point this command is not executed at the cretion of docker it is executed at when we run docker image
 
 Building Docker image :-
