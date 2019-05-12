@@ -77,6 +77,7 @@ EXPOSE :- It is used to expose the port for communiation
 CMD :- It is used to start the appliction specific entry point this command is not executed at the cretion of docker it is executed at when we run docker image
 
 Building Docker image :-
+
     •  sudo docker build -t your_image_name .
       
 **note :- here “.” represents the current location for Dockerfile
