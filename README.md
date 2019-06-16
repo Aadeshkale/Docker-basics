@@ -32,8 +32,8 @@ Check the Docker version by typing :-
 
 Start and Stop Docker :-
 
-    • sudo syatemctl start docker
-    • sudo syatemctl stop docker
+    • sudo systemctl start docker
+    • sudo systemctl stop docker
 
 Docker Image :-
 
@@ -123,6 +123,26 @@ Removing Docker cointainer :-
     • sudo docker container rm  <ID_OF_DOCKER_Image>
 
 
+
+Starting docker cointainer
+    
+    • sudo docker start <ID_OF_DOCKER_Image>
+	
+Docker push/pull 
+ 		
+	• sudo docker pull <ID_OF_DOCKER_Image>
+
 **note tere are many other important commands you can found on official Docker site
+
+
+
+
+
+
+
+
+
+
+
 
 
