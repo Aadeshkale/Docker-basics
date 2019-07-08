@@ -127,12 +127,45 @@ Removing Docker cointainer :-
 Starting docker cointainer
     
     • sudo docker start <ID_OF_DOCKER_Image>
+
+
+
+Running docker image into container bash
+
+	sudo docker run   -it -p 8000:8000 <image_name>:tag  /bin/bash
+
+Starting docker container 
+	
+	sudo docker start container_id
+
+Running docker container :   
+	
+	sudo docker exec -i -t <ID_OF_DOCKER_CONTAINER> /bin/bash
+
+
+commit container changes on image 
+	
+	sudo docker commit  <container_id> <image_name:tag>
+
+
 	
 Docker push/pull 
  		
 	• sudo docker pull <ID_OF_DOCKER_Image>
+	
+
+
+Adding tag to image :
+		
+		sudo docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+
+		sudo docker tag IMAGE[:TAG] [USERNAME/]REPOSITORYNAME[:TAG]
+
+		sudo docker push [USERNAME/]REPOSITORYNAME[:TAG]
 
 **note tere are many other important commands you can found on official Docker site
+
+
 
 
 
